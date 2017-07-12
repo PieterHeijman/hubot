@@ -1,4 +1,4 @@
-# hubot
+# hubot scripts
 Collection of basic scripts for integrating into a Hubot
 
 ## diceroll.coffee
