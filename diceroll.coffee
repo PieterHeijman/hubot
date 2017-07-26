@@ -1,6 +1,6 @@
-###
-This script lets a bot roll dice for you.
-###
+# Description:
+#   This script lets a bot roll dice for you.
+#
 module.exports = (robot) ->
   robot.hear /roll ([0-9]{1,3}d[0-9]{1,3})/i, (msg) ->
     dieType = msg.match[1].toLowerCase()

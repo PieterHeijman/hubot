@@ -8,8 +8,23 @@ Lets your bot roll dice for you. It uses the notation system used in Dungeons an
 
 roll 2d8
 
-This will result in 2 eight-sided dice being rolled.
+*This will result in 2 eight-sided dice being rolled.*
 
 roll a d20
 
-This will result in 1 twenty-sided die being rolled
+*This will result in 1 twenty-sided die being rolled*
+
+## numbers.coffee
+Let's your bot generate random-ish numbers (using javascript, so not perfectly random).
+
+**example**
+
+give me a random number between 3 and 7
+
+*This will generate a number between 3 and 7, can also more briefly be called as:*
+
+number 3 7
+
+number under 10
+
+*This will generate a number between 0 and 10*
